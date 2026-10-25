@@ -11,7 +11,7 @@ export default function Header({ activePage, onNavigate }) {
     <header className="topbar">
       <div className="topbar-inner">
         <button className="brand" onClick={() => onNavigate("dashboard")} aria-label="Synaps dashboard">
-          <span>Syanaps<span className="brand-dot">.</span><small>STUDENT WORKSPACE</small></span>
+          <span>Synaps<span className="brand-dot">.</span><small>STUDENT WORKSPACE</small></span>
         </button>
         <nav className="navigation" aria-label="Navigasi utama">
           {links.map(({ id, label, Icon }) => (
